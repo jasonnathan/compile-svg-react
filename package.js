@@ -8,7 +8,7 @@ Package.registerBuildPlugin({
   name: "compileSVG",
   use: [
     'caching-html-compiler@1.0.1',
-    'ecmascript'
+    'ecmascript@0.6.1'
   ],
   sources: ['lib/compile-svg.js']
 });
