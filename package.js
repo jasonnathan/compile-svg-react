@@ -20,6 +20,6 @@ Package.onUse(function (api) {
   api.addFiles([
     "lib/svg.css"
   ], "client");
-  api.mainModule('lib/SvgIcon.jsx', 'client')
+  api.mainModule('index.js', 'client')
 
 });
