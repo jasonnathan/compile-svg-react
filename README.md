@@ -2,6 +2,8 @@
 
 This package will automatically look for all the SVGs in your codebase and make them available as hidden divs in your document.
 
+This package is a modification of [utilities:compile-svg](https://github.com/meteor-utilities/compile-svg)
+
 ### Install
 
 ```

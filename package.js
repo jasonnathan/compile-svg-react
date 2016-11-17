@@ -1,7 +1,7 @@
 Package.describe({
   name: "nicocrm:compile-svg-react",
-  summary: "Gather SVG files and make them available as a single sprite",
-  version: "0.1.1"
+  summary: "Gather SVG files and make them available in the document",
+  version: "1.0.0"
 });
 
 Package.registerBuildPlugin({
