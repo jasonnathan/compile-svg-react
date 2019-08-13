@@ -1,7 +1,7 @@
 Package.describe({
-  name: "nicocrm:compile-svg-react",
+  name: "jasonnathan:compile-svg-react",
   summary: "Gather SVG files and make them available in the document",
-  version: "1.0.0"
+  version: "1.0.3"
 });
 
 Package.registerBuildPlugin({

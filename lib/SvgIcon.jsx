@@ -1,12 +1,15 @@
-import React from 'react'
+import React from "react";
+import PropTypes from "prop-types";
 
-const SvgIcon = ({name}) => {
-  const content = {__html: $('.svg-sprite.' + name).html()}
-  return <div dangerouslySetInnerHTML={content} />
-}
+const SvgIcon = ({ name }) => {
+  const classes = `svg-sprite ${name}`;
+  const elements = document.getElementsByClassName(classes);
+  const content = elements[0].innerHTML;
+  return <div dangerouslySetInnerHTML={{ __html: content }} />;
+};
 
 SvgIcon.propTypes = {
-  name: React.PropTypes.string.isRequired
-}
+  name: PropTypes.string.isRequired
+};
 
-export default SvgIcon
+export default SvgIcon;
