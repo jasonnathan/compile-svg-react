@@ -1,7 +1,7 @@
 Package.describe({
   name: "jasonnathan:compile-svg-react",
   summary: "Gather SVG files and make them available in the document",
-  version: "1.0.3"
+  version: "1.0.4"
 });
 
 Package.registerBuildPlugin({
